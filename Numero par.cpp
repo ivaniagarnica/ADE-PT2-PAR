@@ -2,16 +2,18 @@
 // Numero par.
 // 23-04-2015
 
-# include <stdio.h>
+# include <iostream>
+using namespace std;
 int main()
+{ 
+cout<<"\n\nIngresar un numero distinto de Cero\t";
+int a;
+cin>> a;
+if(a%2==0)
 {
-	int a;
-	printf ("\n Ingrese un valor mayor a 0: ");
-	scanf("\n %d", &a);
-	
-	if ( a%2 == 0 )
-	{ printf("Es par",a);
-	}
-	else {printf ("Es impar",a);
-	}
+cout<<"Numero Par";
+}
+else{ cout<<"Nuero Impar";
+}
+
 }
